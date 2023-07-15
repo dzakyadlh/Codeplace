@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  color: #f3f3f3;
+  background-color: #a0a0a0;
+  font-family: Poppins, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  min-height: 100vh;
+  max-width: 100vw;
+  margin: 0;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.markdown-container,
+.preview-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 5px #121212;
+  border: 1px solid #121212;
+  resize: horizontal;
+}
+
+.nav-container {
+  width: 100%;
+  background-color: #121212;
+  flex: 0 1 auto;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.container-name {
+  padding: 10px;
+  width: 20%;
+  background-color: #14ffec;
+  display: flex;
+  justify-content: center;
+}
+
+.container-name h2 {
+  color: #121212;
+  margin: 0;
+  font-size: 1em;
+}
+
+.nav-button {
+  height: 100%;
+  margin: 0 10px;
+  padding: 10px;
+  background-color: transparent;
+  box-sizing: border-box;
+  border: none;
+}
+
+.nav-icon {
+  color: #f3f3f3;
+  font-size: 1.5em;
+  transition: 0.5s;
+}
+
+.nav-button:hover .nav-icon {
+  color: #14ffec;
+}
+
+.input-container {
+  flex: 1 1 auto;
+}
+
+.textinput {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  background-color: #222222;
+  color: #f3f3f3;
+  box-sizing: border-box;
+  resize: none;
+}
+
+.textinput:focus {
+  outline: none;
+}
+
+.preview {
+  height: 100%;
+  width: 100%;
+  background-color: #f3f3f3;
+  color: #000000;
+  box-sizing: border-box;
+  overflow: scroll;
+}/*# sourceMappingURL=App.css.map */
